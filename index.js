@@ -11,8 +11,6 @@ function totalSongs(songLibrary) {
 
 document.getElementById("pickfrom").textContent = (`Pick from ${totalSongs(songLibrary)} songs in ${songLibrary.length} albums!`);
 
-var button = document.getElementById("button");
-
 function pickSong(songLibrary){
     var album_obj = songLibrary[Math.floor(Math.random() * songLibrary.length)];
     var album = album_obj.album;
@@ -22,7 +20,7 @@ function pickSong(songLibrary){
     }
     return {song: song, album: album, [Symbol.toStringTag]: "Song Choice", link: ""};
 }
-button.on("click", function() {
+$("button").on("click", function() {
     handleClick(songLibrary);
 });
 
