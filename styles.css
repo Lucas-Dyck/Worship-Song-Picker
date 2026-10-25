@@ -1,13 +1,13 @@
 body {
 	padding-top: 60px;
 	align-items: center;
-	font-family: Poppins, sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 100;
     background-color: rgb(226, 222, 213);
     color:rgb(150,109,51);
 }
 
-div[id=header] {
+#header {
 	display: flex;
 	align-items: center;
 	background-color: white;
@@ -30,7 +30,7 @@ h1 {
 }
 
 #song {
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 4rem;
 	margin: 0px 0px 0px 50px;
 	
