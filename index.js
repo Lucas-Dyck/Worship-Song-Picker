@@ -26,8 +26,8 @@ $("button").on("click", function() {
 
 function handleClick(songLibrary) {
     var choice = pickSong(songLibrary);
-    $("song").text(choice.song);
-    $("album").text(choice.album);
+    $("#song").text(choice.song);
+    $("#album").text(choice.album);
     processURL(choice);
     
     function processURL(choice) {
