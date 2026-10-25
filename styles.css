@@ -1,5 +1,5 @@
 body {
-	margin-top: 150px;
+	padding-top: 150px;
 	align-items: center;
 	font-family: Poppins, sans-serif;
 	font-weight: 100;
@@ -16,7 +16,6 @@ div[id=header] {
 	position: absolute;
 	top:0;
 	color: rgb(150,109,51);
-	font-family: 'Gill Sans', sans-serif;
 }
 
 #hero {
@@ -48,14 +47,13 @@ h1 {
 	text-transform: uppercase;
 	font-size: 1.5rem;
 	font-weight: 400;
-	font-family: Avenir;
 	margin-left:100px;
 }
 
 button {
 	padding:10px;
 	color: white;
-	font-family: Avenir, sans-serif;
+	: Avenir, sans-serif;
 	font-weight: 700;
 	font-size:1.5rem;
 	margin-right: 50px;
