@@ -60,17 +60,20 @@ function handleClick(songLibrary) {
             if (choice.album === "We Sing to You, Jesus (Carols for Worship)") {
                 processedSong += "-we-sing-to-you-jesus";
             }
-            if(choice.album === "Singles" && song.choice === "Let All Mortal Flesh Keep Silence") {
-                song.album === "Advent";
+            if(choice.album === "Singles" && choice.song === "Let All Mortal Flesh Keep Silence") {
+                choice.album === "Advent";
             }
-            if(choice.album === "Singles" && song.choice === "Savior of the Nations Come") {
-                song.album === "Advent, No. 2";
+            if(choice.album === "Singles" && choice === "Savior of the Nations Come") {
+                choice.album === "Advent, No. 2";
             }
-            if(choice.album === "Volume One" && song.choice === "In Christ Alone") {
+            if(choice.album === "Volume One" && choice.song === "In Christ Alone") {
                 processedSong += "-vol-1";
             }
+            if (choice.album === "Behold & Believe" && song.choice === "Psalm 23 (Surely Goodness, Surely Mercy)") {
+                processedSong += "-behold-and-believe";
+            }
             else if (choice.album === "Singles") {
-                song.album === choice.song + " - Single"
+                choice.album === choice.song + " - Single";
             }
         
             choice.link = processedSong;
