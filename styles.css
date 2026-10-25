@@ -86,10 +86,17 @@ button {
 	transition: 100ms;
 }
 
-button:active {
-	border: 5px solid gold;
+#green:active {
+	border: 5px solid rgb(46, 209, 103);
 	box-sizing: border-box;
-	transition: 0.1s;
+	background-color: white;
+	color: rgb(46, 209, 103);
+}
+#red:active {
+	border: 5px solid rgb(255, 39, 42);;
+	box-sizing: border-box;
+	background-color: white;
+	color: rgb(255, 39, 42);;
 }
 
 #footer {
