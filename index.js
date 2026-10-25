@@ -45,10 +45,10 @@ function handleClick(songLibrary) {
             if (choice.song === "Angels We Have Heard On High" && choice.album === "We Sing To You, Jesus (Carols For Worship)") {
                 processedSong += "-we-sing-to-you-jesus";
                 }
-            if (choice.song === "How Great Thou Art" && choice.album === "The Worship Initiative Hymns Volume 2") {
+            if (choice.song === "How Great Thou Art" && choice.album === "Worship Initiative Hymns Volume 2") {
                 processedSong += "-twi-hymns-2";
             }
-            if (choice.song === "All Hail King Jesus" && choice.album === "The Worship Initiative Volume 18") {
+            if (choice.song === "All Hail King Jesus" && choice.album === "Worship Initiative Volume 18") {
                 processedSong += "-vol-18";
             }
             if (choice.song === "You've Already Won" && choice.album === "Behold & Believe") {
