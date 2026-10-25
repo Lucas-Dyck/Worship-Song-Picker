@@ -68,11 +68,13 @@ button {
 }
 
 #red:hover {
-	background-color: lightred;
+	background-color: lightcoral;
+	color: lightgray;
 	transition: 100ms;
 }
 #green:hover {
-	background-color: lightgreen;
+	background-color: palegreen;
+	color: lightgray;
 	transition: 100ms;
 }
 
