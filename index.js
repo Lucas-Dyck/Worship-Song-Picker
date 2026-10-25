@@ -9,7 +9,7 @@ function totalSongs(songLibrary) {
     return songs;
 }
 
-document.getElementById("pickfrom").textContent = (`Pick from ${totalSongs(songLibrary)} songs in ${songLibrary.length} albums!`);
+$("#pickfrom").text(`Pick from ${totalSongs(songLibrary)} songs in ${songLibrary.length} albums!`);
 
 function pickSong(songLibrary){
     var album_obj = songLibrary[Math.floor(Math.random() * songLibrary.length)];
@@ -20,7 +20,7 @@ function pickSong(songLibrary){
     }
     return {song: song, album: album, link: ""};
 }
-$("button").on("click", function() {
+$("#green").on("click", function() {
     handleClick(songLibrary);
 });
 
