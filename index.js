@@ -22,7 +22,7 @@ function pickSong(songLibrary){
     }
     return {song: song, album: album, [Symbol.toStringTag]: "Song Choice", link: ""};
 }
-button.addEventListener("click", function() {
+button.on("click", function() {
     handleClick(songLibrary);
 });
 
