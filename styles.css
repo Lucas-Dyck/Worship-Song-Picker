@@ -65,15 +65,20 @@ button {
 	height: 70px;
 
 }
+#red {
+	background-color: rgb(255, 39, 42);
+}
 
 #red:hover {
 	background-color: lightcoral;
-	color: lightgray;
 	transition: 100ms;
 }
+#green {
+	background-color: rgb(46, 209, 103);
+}
+
 #green:hover {
 	background-color: palegreen;
-	color: lightgray;
 	transition: 100ms;
 }
 
