@@ -80,11 +80,3 @@ function handleClick(songLibrary) {
         $("a").attr("href", url);
     }
 }
-const now = new Date();
-const hour = now.getHours();
-if (hour < 6 || hour >= 18) {
-    $("body").attr("data-theme", "dark")
-}
-else {
-    $("body").attr("data-theme", "light")
-}
