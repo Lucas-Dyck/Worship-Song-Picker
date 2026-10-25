@@ -18,7 +18,7 @@ function pickSong(songLibrary){
     if (song === album) {
         album += " - Single";
     }
-    return {song: song, album: album, [Symbol.toStringTag]: "Song Choice", link: ""};
+    return {song: song, album: album, link: ""};
 }
 $("button").on("click", function() {
     handleClick(songLibrary);
@@ -26,8 +26,8 @@ $("button").on("click", function() {
 
 function handleClick(songLibrary) {
     var choice = pickSong(songLibrary);
-    document.getElementById("song").textContent = choice.song;
-    document.getElementById("album").textContent = choice.album;
+    $("song").textContent = choice.song;
+    $("album").textContent = choice.album;
     processURL(choice);
     
     function processURL(choice) {
@@ -77,7 +77,7 @@ function handleClick(songLibrary) {
             choice.link = processedSong;
             console.log(choice);
             var url = `https://psallo.theworshipinitiative.com/home/songs/${processedSong}/chords`;
-        document.querySelector("a").setAttribute("href", url);
+        $("a").attr("href", url);
     }
 }
 const now = new Date();
