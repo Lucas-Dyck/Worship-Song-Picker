@@ -73,30 +73,21 @@ button {
 	background-color: rgb(255, 39, 42);
 }
 
-#red:hover {
-	background-color: lightcoral;
-	transition: 100ms;
+#red:hover , #red:active {
+	border: 5px solid rgb(255, 39, 42);;
+	box-sizing: border-box;
+	background-color: white;
+	color: rgb(255, 39, 42);
 }
 #green {
 	background-color: rgb(46, 209, 103);
 }
 
-#green:hover {
-	background-color: palegreen;
-	transition: 100ms;
-}
-
-#green:active {
+#green:hover, #green:active {
 	border: 5px solid rgb(46, 209, 103);
 	box-sizing: border-box;
 	background-color: white;
 	color: rgb(46, 209, 103);
-}
-#red:active {
-	border: 5px solid rgb(255, 39, 42);;
-	box-sizing: border-box;
-	background-color: white;
-	color: rgb(255, 39, 42);;
 }
 
 #footer {
