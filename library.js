@@ -183,6 +183,6 @@ export const songLibrary = [
      songsArray: ["Turn Your Eyes Upon Jesus", "Abide", "You've Already Won", "Behold Him", "Psalm 34 (Taste and See)", "Promises", "Psalm 23 (Surely Goodness, Surely Mercy)", "Before the Throne of God Above", "Goodness of God", "You Said I Am (Behold and Believe)"]
     },
     {album: "Psalms Vol. 3",
-     songsArray: ["Praise Upon Praise", "Hiding Place (Psalm 32)","The Highest Praise (Psalm 95)","I Delight In You (Psalm 1)","Salvation Belongs to You (Psalm 3)","As Loud as He Is Worthy (Psalm 47)","Great and Greatly to Be Praised (Psalm 145)","My Soul (Psalm 62)","Yahweh, The Lord (Psalm 145)", "I Will Wait (Isaiah 40"]
+     songsArray: ["Praise Upon Praise", "Hiding Place (Psalm 32)","The Highest Praise (Psalm 95)","I Delight In You (Psalm 1)","Salvation Belongs to You (Psalm 3)","As Loud as He Is Worthy (Psalm 47)","Great and Greatly to Be Praised (Psalm 145)","My Soul (Psalm 62)","Yahweh, The Lord (Psalm 145)", "I Will Wait (Isaiah 40)"]
     },
 ]
