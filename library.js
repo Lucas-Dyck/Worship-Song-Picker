@@ -9,7 +9,7 @@ export const songLibrary = [
     songsArray:["Heart Starts Beating", "Hosanna (Praise Is Rising)", "Forever Reign", "Mercy", "How Great is Our God", "You Are My All in All", "We Exalt Thee", "Our God", "Open the Eyes of my Heart",  "Better is One Day"]
     },
     {album: "The Worship Initiative Volume Three",
-    songsArray: ["So Can I Love", "I Will Follow", "Liberty", "Lord, You're Beautiful", "How He Loves" , "Never Once", "Shout to the Lord", "Before the Throne of God Above", "Beautiful One", "Blessed Be Your Name"]
+    songsArray: ["So I Can Love", "I Will Follow", "Liberty", "Lord, You're Beautiful", "How He Loves" , "Never Once", "Shout to the Lord", "Before the Throne of God Above", "Beautiful One", "Blessed Be Your Name"]
     },
     {album: "The Worship Initiative Volume Four", 
     songsArray: ["I Stand Amazed (How Marvelous)", "Our God is Love", "Holy is the Lord", "Here for You", "Always", "Here I Am To Worship", "Worthy of Affection", "Healer", "It is Well (Hymn)", "O Praise Him (All This For a King)"]
