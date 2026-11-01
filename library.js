@@ -48,7 +48,7 @@ export const songLibrary = [
     songsArray: ["Reckless Love", "Your Love Awakens Me", "Tremble", "Christ Is Enough", "Resurrecting"]
     },
     {album: "The Worship Initiative Volume Sixteen",
-    songsArray: ["Living Hope", "Who Say I Am", "Life Defined", "Do It Again", "Let It Be Jesus", "So Will I", "Behold (Then Sings My Soul)", "Look To The Son", "Chain Breaker", "This We Know"]
+    songsArray: ["Living Hope", "Who Say I Am", "Life Defined", "Do It Again", "Let It Be Jesus", "So Will I (100 Billion X)", "Behold (Then Sings My Soul)", "Look To The Son", "Chain Breaker", "This We Know"]
     },
     {album: "The Worship Initiative Volume Seventeen",
     songsArray: ["Goodness of God", "Touch the Sky", "Lean Back", "Give Us Your Heart", "Isn't He", "It Is Well", "Jesus Is Better", "New Wine", "I Shall Not Want", "Holy Ground", "Defender", "Broken Vessels"]
