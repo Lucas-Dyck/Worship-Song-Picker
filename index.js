@@ -76,7 +76,7 @@ function handleClick(songLibrary) {
         
             choice.link = processedSong;
             console.log(choice);
-            var url = `https://psallo.theworshipinitiative.com/home/songs/${processedSong}/chords`;
+            var url = `https://psallo.theworshipinitiative.com/home/songs/${processedSong}/videos/${processedSong}-piano`;
         $("a").attr("href", url);
     }
 }
